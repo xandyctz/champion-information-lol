@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-image: url('./assets/image.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: #061C25;
+
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color-base: #f0e6d2;
+  --color-title: #c8aa6e;
+}

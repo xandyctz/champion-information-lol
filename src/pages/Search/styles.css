@@ -1,0 +1,79 @@
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  background-color: var(--color-base);
+  max-width: 500px;
+  width: 100%;
+  max-height: 300px;
+  height: 100%;
+
+  border-radius: .3rem;
+  box-shadow: 0px 2px 3px var(--color-base);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.title {
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: var(--color-title);
+  text-shadow: 0px 1px 1px var(--color-title);
+  margin-top: 4rem;
+}
+
+.champion {
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-title);
+  background-color: var(--color-base);
+  text-shadow: 0px 1px 1px var(--color-title);
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: background-color .5s;
+}
+@media only screen and (max-width: 600px) {
+  .champion {
+    padding: 10px 25px;
+    font-size: 10px;
+
+  }
+  .panel {
+    max-width: 300px;
+
+  }
+  .title {
+    font-size: 18px;
+  }
+}
+
+.champion:hover {
+  background-color: #ddd3be;
+}
+
+.copy {
+  text-align: center;
+  font-weight: bold;
+  color: var(--color-title);
+  font-family: 'Roboto Slab', sans-serif;
+  text-shadow: 0px 1px 1px var(--color-title);
+  margin-bottom: .5rem;
+  transition: color .5s;
+}
+.copy:hover {
+  color: #99804efb;
+}
