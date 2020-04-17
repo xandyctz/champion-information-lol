@@ -9,7 +9,7 @@ Champion Information
 </h1>
 
 <blockquote align="center">
-	Simple project to consume League of Legend API
+	Simples projeto para consumir a API do League of Legend
 </blockquote>
 
 ## 🚀 Tecnologia
