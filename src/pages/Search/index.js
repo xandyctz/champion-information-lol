@@ -2,6 +2,11 @@ import React from 'react';
 import './styles.css';
 
 export default function Search() {
+
+  function buscarChampion(e){
+    console.log('teste')
+  }
+
   return (
     <div>
       <div className="container">
@@ -10,18 +15,16 @@ export default function Search() {
           <div className="search">
             <select className="champion">
               <option value="">Escolha um personagem</option>
-              <option value="">Ammu</option>
+              <option value="ammu">Ammu</option>
             </select>
           </div>
-          <a href="https://github.com/xandyctz" target="_blank"><p className="copy">&copy; Xandy 2020</p></a>
+          <a href="#" onClick={buscarChampion}><p className="copy">&copy; Xandy 2020</p></a>
         </div>
       </div>
 
       <div className="champion-information">
         <ul className="list">
-          <li>teste</li>
-          <li>teste</li>
-          <li>teste</li>
+          
         </ul>
       </div>
       </div>

@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100vw;
   background-color: #061C25;
+  -webkit-font-smoothing: antialiased;
 
   
 }
